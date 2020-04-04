@@ -1,4 +1,47 @@
 // Custom variable overrides go here
+.jumbotron {
+  background-image: url("../img/pirate-ship.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  font-family: 'Special Elite';
+  text-align: center;
+}
+
+footer {
+  background-color: teal ;
+  text-align: center; 
+  
+}
+
+.footer-text {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+h3 {
+  font-family: 'Permanent Marker' cursive;
+
+}
+
+.lead {
+  color: white;
+}
+
+a.nav-link:hover {
+  text-decoration: underline;
+  
+}
+
+a.nav-link:active {
+  font-weight: bold;
+  }
+
+
 // For options, see node_modules/bootstrap/scss/_variables.scss
 // examples:
 // $body-bg: black;
